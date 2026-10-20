@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Farid Said, Head of IT building trading infrastructure, network and security, and FinTech tooling. Open-source side: Claude Code skills, QuantLib IRS toolkit, Proxmox hardening, Excel-DNA trading add-in.">
+  <meta name="description" content="Farid Said, Head of IT in Switzerland: infrastructure, network and security, AI-augmented IT operations. Open source: Proxmox host hardening, sim-to-real reinforcement learning.">
   <meta name="color-scheme" content="dark light">
   <link rel="canonical" href="https://fawraw.github.io/">
-  <title>Farid Said, FinTech infrastructure engineer</title>
+  <title>Farid Said, Head of IT</title>
   <link rel="preconnect" href="https://rsms.me/">
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   <link rel="stylesheet" href="style.css">
@@ -16,12 +16,12 @@
 <header class="hero">
   <pre class="whoami" aria-label="whoami">$ whoami
 Head of IT. Nearly 15 years of hands-on technical experience.
-Trading platforms, network and security, FinTech tooling.
+Infrastructure, network and security, AI-augmented operations.
 Strong technical depth across the full stack.</pre>
 
   <p class="tagline">
     Bridge between business and IT.
-    Strategy meets terminal: designing trading platforms, hardening perimeters,
+    Strategy meets terminal: designing resilient infrastructure, hardening perimeters,
     folding AI into day-to-day ops.
   </p>
 
@@ -35,43 +35,20 @@ Strong technical depth across the full stack.</pre>
 <main>
 
 <section id="work" class="block">
-  <h2>What I currently work on</h2>
+  <h2>What I do</h2>
   <ul class="work">
-    <li><strong>Electronic matching platform</strong>: dark pool, ZAR IRS, FastAPI + React + MSAL + WebSocket.</li>
-    <li><strong>Price contribution platform</strong>: Bloomberg / LSEG to Excel-DNA to FastAPI to QuestDB to Kafka.</li>
-    <li><strong>Hyper-V to Proxmox cluster migration</strong>: 3 nodes, NetApp NFS, hardening CIS.</li>
-    <li><strong>Anti-ransomware program</strong>: 4-phase NIST-aligned roadmap, Zero Trust segmentation.</li>
-    <li><strong>FreePBX 17 replacing legacy CUCM</strong>: Asterisk 22, SIP trunk migration.</li>
-    <li><strong>AI-augmented IT ops</strong>: Claude Code for infra audits, runbooks, algorithmic trading.</li>
+    <li><strong>Infrastructure</strong>: virtualization, storage, backup and disaster recovery for regulated environments.</li>
+    <li><strong>Network and security</strong>: Zero Trust segmentation, next-generation firewalls, site-to-site VPN, hardening.</li>
+    <li><strong>AI-augmented IT operations</strong>: Claude Code for infrastructure audits, documentation and runbooks.</li>
+    <li><strong>Homelab</strong>: Proxmox cluster, self-hosted CI/CD, monitoring and workflow automation.</li>
   </ul>
 </section>
 
 <section id="open-source" class="block">
   <h2>Open source</h2>
-  <p>Tools and patterns distilled from a decade of FinTech production:</p>
+  <p>Tools and playbooks I publish:</p>
 
   <div class="cards">
-
-    <article class="card">
-      <h3><a href="https://github.com/fawraw/claude-skills-fintech-ops">claude-skills-fintech-ops</a></h3>
-      <p class="card-meta">24 skills, 8 categories</p>
-      <p>Claude Code skills for FinTech ops: trading, infrastructure, network, security, monitoring, telephony, frontend, data. Each one captures a production gotcha that does not show up in generic tutorials.</p>
-      <p class="card-tags"><span>Markdown</span> <span>Claude Code</span> <span>FinTech</span></p>
-    </article>
-
-    <article class="card">
-      <h3><a href="https://github.com/fawraw/quantlib-irs-toolkit">quantlib-irs-toolkit</a></h3>
-      <p class="card-meta">Live on PyPI: <code>pip install quantlib-irs-toolkit</code></p>
-      <p>Minimal QuantLib helpers to bootstrap interest-rate swap curves for PLN, HUF, CZK, ZAR. Discount factors, zero rates, forward rates from market par swap rates. CI tested on Python 3.10/3.11/3.12, published via Trusted Publisher (OIDC).</p>
-      <p class="card-tags"><span>Python</span> <span>QuantLib</span> <span>Rates</span></p>
-    </article>
-
-    <article class="card">
-      <h3><a href="https://github.com/fawraw/excel-dna-trading-addin-template">excel-dna-trading-addin-template</a></h3>
-      <p class="card-meta">.NET 6, Excel-DNA 1.8</p>
-      <p>Production-grade starter for a trading-floor Excel add-in: ribbon, MSAL Entra ID auth, HTTP back-end client, timer-driven cell watcher on named ranges, packaging scripts. Builds green on Windows via GitHub Actions.</p>
-      <p class="card-tags"><span>C#</span> <span>Excel-DNA</span> <span>Trading</span></p>
-    </article>
 
     <article class="card">
       <h3><a href="https://github.com/fawraw/proxmox-host-hardening">proxmox-host-hardening</a></h3>
@@ -83,7 +60,7 @@ Strong technical depth across the full stack.</pre>
     <article class="card">
       <h3><a href="https://github.com/fawraw/triple-pendulum-sim2real">triple-pendulum-sim2real</a></h3>
       <p class="card-meta">RL / MuJoCo / n8n</p>
-      <p>Sim-to-real reinforcement learning for all 56 equilibrium transitions of a triple inverted pendulum on a cart. TQC algorithm, MuJoCo physics, n8n orchestration. Side project, not FinTech, kept for the ML signal.</p>
+      <p>Sim-to-real reinforcement learning for all 56 equilibrium transitions of a triple inverted pendulum on a cart. TQC algorithm, MuJoCo physics, n8n orchestration. Side project.</p>
       <p class="card-tags"><span>Python</span> <span>RL</span> <span>MuJoCo</span></p>
     </article>
 
@@ -93,23 +70,20 @@ Strong technical depth across the full stack.</pre>
 <section id="stack" class="block">
   <h2>Stack</h2>
   <dl class="stack">
-    <dt>Trading and FinTech</dt>
-    <dd>Bloomberg, LSEG RTDS / RCC, QuantLib, FIX 4.x / 5.0, Excel-DNA, Entra ID / MSAL.</dd>
-
-    <dt>Backend and data</dt>
-    <dd>Python (FastAPI), TypeScript / React (Vite), QuestDB, SQLite, PostgreSQL, Kafka, WebSocket.</dd>
-
     <dt>Infrastructure</dt>
-    <dd>Proxmox VE (cluster + PBS), LXC, NetApp ONTAP (iSCSI + NFS + CIFS), Hyper-V, Veeam, Azure.</dd>
+    <dd>Proxmox VE (cluster + PBS), LXC, NetApp ONTAP, Hyper-V, Veeam, Azure.</dd>
 
     <dt>Network and security</dt>
-    <dd>Cisco (Nexus 9500, Catalyst 9300 / 9200), Palo Alto NGFW (PA-460 HA, PA-440, Panorama), IPsec IKEv2 at scale (23 tunnels / 6 sites), Zero Trust segmentation, DRP.</dd>
+    <dd>Cisco (Nexus, Catalyst), Palo Alto NGFW and Panorama, IPsec IKEv2, Zero Trust segmentation, DRP.</dd>
+
+    <dt>Backend and data</dt>
+    <dd>Python (FastAPI), TypeScript / React (Vite), PostgreSQL, SQLite, Kafka, WebSocket.</dd>
 
     <dt>Observability and ops</dt>
-    <dd>Prometheus, Grafana, Loki, Wazuh SIEM, Veeam, Ansible.</dd>
+    <dd>Prometheus, Grafana, Loki, Wazuh SIEM, Ansible, GitHub Actions.</dd>
 
     <dt>Telephony</dt>
-    <dd>FreePBX 17 / Asterisk 22, CUCM (legacy), IPC Systems (Unigy 5.5), Yealink (T87W, W70B DECT), SIP trunks.</dd>
+    <dd>VoIP and SIP trunks, Asterisk / FreePBX, Cisco CUCM.</dd>
   </dl>
 </section>
 
